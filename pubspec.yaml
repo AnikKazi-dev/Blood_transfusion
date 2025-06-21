@@ -1,0 +1,38 @@
+name: secureblood
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.5
+
+environment:
+  sdk: ">=3.4.4 <4.0.0"
+
+dependencies:
+  camera: ^0.11.0+1
+  flutter:
+    sdk: flutter
+  google_mlkit_text_recognition: ^0.15.0
+  google_mlkit_barcode_scanning: ^0.14.1
+  dynamsoft_capture_vision_flutter: ^1.4.0
+  google_mlkit_commons: ^0.11.0
+  qr_code_scanner_plus: ^2.0.10+1
+  mobile_scanner: ^7.0.0
+  image_picker: ^1.1.2
+  path_provider: ^2.1.4
+  provider: ^6.1.2
+  path: ^1.9.0
+  sqflite: ^2.3.3+1
+  intl: ^0.20.2
+  csv: ^6.0.0
+  share_plus: ^11.0.0
+  cupertino_icons: ^1.0.2
+  just_audio: ^0.10.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
